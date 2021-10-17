@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1200px) {
+  .images {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .images {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .images {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper__bullets {
+    margin: auto;
+  }
+
+  .wrapper__titles {
+    margin: auto;
+  }
+
+  .title {
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+    padding-right: 0;
+  }
+
+  .images {
+    width: 90vw;
+  }
+
+  .body__wrapper {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .images {
+    width: 100vw;
+  }
+}
