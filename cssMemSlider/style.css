@@ -41,7 +41,7 @@ h2 {
 }
 
 input[name="bullet"] {
-  position: absolute;
+  position: fixed;
   visibility: hidden;
 }
 
