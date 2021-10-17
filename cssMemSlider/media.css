@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px) {
+  .slides {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .slides {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .slides {
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper__bullets {
+    margin: auto;
+    order: 1;
+  }
+
+  .wrapper__titles {
+    margin: auto;
+    order: 2;
+  }
+
+  .title {
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+    padding-right: 0;
+  }
+
+  .slides {
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .body__wrapper {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .slides {
+    width: 100vw;
+  }
+}
