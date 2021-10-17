@@ -27,3 +27,11 @@ body {
   display: flex;
   column-gap: 15px;
 }
+
+/* Titles */
+
+.title {
+  font-family: 'Cookie', cursive;
+  font-size: 3rem;
+  color: #424242;
+}
