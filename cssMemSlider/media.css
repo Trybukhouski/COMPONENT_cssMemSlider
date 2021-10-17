@@ -1,17 +1,17 @@
 @media only screen and (max-width: 1200px) {
-  .images {
+  .slides {
     width: 50vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .images {
+  .slides {
     width: 60vw;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  .images {
+  .slides {
     width: 70vw;
   }
 }
@@ -24,10 +24,12 @@
 
   .wrapper__bullets {
     margin: auto;
+    order: 1;
   }
 
   .wrapper__titles {
     margin: auto;
+    order: 2;
   }
 
   .title {
@@ -36,8 +38,9 @@
     padding-right: 0;
   }
 
-  .images {
+  .slides {
     width: 90vw;
+    height: 50vh;
   }
 
   .body__wrapper {
@@ -46,7 +49,7 @@
 }
 
 @media only screen and (max-width: 380px) {
-  .images {
+  .slides {
     width: 100vw;
   }
 }

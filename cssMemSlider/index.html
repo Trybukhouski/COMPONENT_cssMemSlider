@@ -13,18 +13,44 @@
 </head>
 <body class="body">
   <main class="wrapper grid body__wrapper">
-    <div class="images wrapper__images">
-      <img src="assets/images/stay-home.png" alt="stay-home">
+    <div class="slides wrapper__slides">
+      <div class="images">
+        <input type="radio" name="bullet" id="bullet_first" checked>
+        <input type="radio" name="bullet" id="bullet_second">
+        <input type="radio" name="bullet" id="bullet_third">
+        <input type="radio" name="bullet" id="bullet_forth">
+        <input type="radio" name="bullet" id="bullet_fifth">
+
+        <div class="image image_active">
+          <img src="assets/images/stay-home.png" alt="stay-home">
+        </div>
+        <div class="image">
+          <img src="assets/images/drink-water.png" alt="drink-water">
+        </div>
+        <div class="image">
+          <img src="assets/images/drink-wine.png" alt="drink-wine">
+        </div>
+        <div class="image">
+          <img src="assets/images/use-head.png" alt="use-head">
+        </div>
+        <div class="image">
+          <img src="assets/images/watch-ponies.png" alt="watch-ponies">
+        </div>
+      </div>
     </div>
     <div class="titles wrapper__titles">
-      <h2 class="title">Keep calm and stay home</h2>
+      <h2 class="title title_active">Keep calm and stay home</h2>
+      <!-- <h2 class="title">Keep calm and drink water</h2>
+      <h2 class="title">Keep calm and drink wine</h2>
+      <h2 class="title">Keep calm and use your head</h2>
+      <h2 class="title">Keep calm and watch-ponies</h2> -->
     </div>
     <div class="bullets wrapper__bullets">
-      <div class="bullet"></div>
-      <div class="bullet"></div>
-      <div class="bullet"></div>
-      <div class="bullet"></div>
-      <div class="bullet"></div>
+      <label for="bullet_first" class="bullet"></label>
+      <label for="bullet_second" class="bullet"></label>
+      <label for="bullet_third" class="bullet"></label>
+      <label for="bullet_forth" class="bullet"></label>
+      <label for="bullet_fifth" class="bullet"></label>
     </div>
   </main>
 </body>
