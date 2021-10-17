@@ -1,0 +1,29 @@
+/* Reset */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Bullets */
+
+.bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #cecece;
+  border-radius: 50%;
+}
+
+.bullet:hover {
+  cursor: pointer;
+  background-color: #838383;
+}
+
+.bullet:active {
+  background-color: #424242;
+}
+
+.bullets {
+  display: flex;
+  column-gap: 15px;
+}
